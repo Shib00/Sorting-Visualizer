@@ -89,6 +89,7 @@ getDim(){
     }
 
     handleSpeedChange(val){
+	console.log(Math.abs(val-41));
         this.setState({speed: Math.abs(val-41)}); 
     }
 
